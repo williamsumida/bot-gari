@@ -1,0 +1,16 @@
+{
+  "name": "bot-gari",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:williamsumida/bot-gari.git",
+  "author": "William Sumida",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsx watch src/bot.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  }
+}
